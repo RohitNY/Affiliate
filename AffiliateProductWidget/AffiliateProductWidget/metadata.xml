@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <contentVariables>
+    <content tag="Affiliate Product">
+      <attribute tag="Merchant Name" name="merchantName" type="string" value="" />
+      <attribute tag="Merchant Logo" name="merchantLogo" type="string" value="" />
+      <attribute tag="Product Image" name="productImage" type="string" value="" />
+      <attribute tag="Merchant Url" name="merchantUrl" type="string" value="" />
+      <attribute tag="Product Url" name="productUrl" type="string" value="" />
+      <attribute tag="PCH Price" name="pchPrice" type="string" required="false" value="" />
+      <attribute tag="Original Price" name="originalPrice" type="string" required="false" value="" />
+      <attribute tag="Body Markup" name="bodyMarkup" type="string" value="" />
+      <attribute tag="Product Title" name="productTitle" type="string" value="" />
+      <attribute tag="Button Text" name="buttonText" type="string" value="" />
+      <attribute tag="Savings Message" name="savingsMessage" type="string" required="false" value="" />
+    </content>
+    <content tag="Analytics">
+      <attribute tag="Affiliate" name="affiliate" type="string" value="" />
+      <attribute tag="Product" name="product" type="string" value="" />
+    </content>
+  </contentVariables>
+</metadata>
