@@ -1,0 +1,111 @@
+<!-- output -->
+<div v-ui:responsive class="affiliateProductAd">
+  <content v-show="$mm.lg" data-ui="standard-lg" class="affiliateContent affilateProductAd_lg">
+    <div class="adCorner">Ad</div>
+       <div class="merchantHeader">
+      <img class="affiliateMerchantLogo" :src ="merchantLogo" width="80" height ="80" alt="merchant logo" >
+      <div class="merchantName">
+      <h3>{{ merchantName }}</h3>
+      <h4>Sponsored</h4>
+    </div>
+    </div>
+    <div class="affiliateAdContainer">
+      <div class="affiliateProductImageContainer">
+      <img class="affiliateProductImage" width="578" height="351"   :src="productImage" alt="product image" />
+      
+    </div>
+      <div class="affiliateProductText">
+        <h5>{{ productTitle }}</h5>
+  
+      
+      
+        <div v-html="bodyMarkup" class="affiliateProductDescription">
+        
+         
+        </div>
+        <h6 v-if="pros">Pros</h6>
+        <ul v-html="pros" v-if="pros">
+
+        </ul>
+        <h6 v-if="cons">Cons</h6>
+        <ul v-html="cons" v-if="cons">
+
+        </ul>
+        <button v-if="smallButtonText" class="affiliateButton affiliateButtonSmall" :data-affiliateid="Id" :data-url="productUrl">{{smallButtonText}}</button>
+      </div>
+     
+     
+    </div>
+    <p class="affiliateFlytype">{{ flytype }}</p>
+  
+  </content>
+  <content v-show="$mm.md" data-ui="standard-md" class="affiliateContent affilateProductAd_md">
+    <div class="merchantHeader">
+      <img class="affiliateMerchantLogo" :src ="merchantLogo" width="80" height ="80" alt="merchant logo" >
+      <div class="merchantName">
+      <h3>{{ merchantName }}</h3>
+      <h4>Sponsored</h4>
+    </div>
+    </div>
+    <div class="affiliateAdContainer">
+      <div class="affiliateProductImageContainer">
+      <img class="affiliateProductImage" width="450" height="273"   :src="productImage" alt="product image" />
+     
+    </div>
+      <div class="affiliateProductText">
+        <h5>{{ productTitle }}</h5>
+  
+      
+      
+        <div v-html="bodyMarkup" class="affiliateProductDescription">
+        
+         
+        </div>
+        <h6 v-if="pros">Pros</h6>
+        <ul v-html="pros" v-if="pros">
+
+        </ul>
+        <h6 v-if="cons">Cons</h6>
+        <ul v-html="cons" v-if="cons">
+
+        </ul>
+        <button v-if="smallButtonText" class="affiliateButton affiliateButtonSmall" :data-affiliateid="Id" :data-url="productUrl">{{smallButtonText}}</button>
+      </div>
+     
+     
+    </div>
+    <p class="affiliateFlytype">{{ flytype }}</p>
+  </content>
+  <content v-show="$mm.sm" data-ui="standard-sm" class="affiliateContent affilateProductAd_sm">
+    <div class="merchantHeader">
+      <img class="affiliateMerchantLogo"  :src ="merchantLogo" width="80" height ="80" alt="merchant logo" >
+      <div class="merchantName">
+        <h3>{{ merchantName }}</h3>
+        <h4>Sponsored</h4>
+      </div>
+    </div>
+    <div class="affiliateAdContainer">
+      <img class="affiliateProductImage" width="321" height="321" :src="productImageMobile" alt="product image" />
+      <div class="affiliateProductText">
+        <h5>{{ productTitle }}</h5>
+        <h6>{{merchantUrl}}</h6>
+    
+       
+        <hr >
+        <div v-html="bodyMarkup" class="affiliateProductDescription"> </div>
+        <h6 v-if="pros">Pros</h6>
+        <ul v-html="pros" v-if="pros">
+
+        </ul>
+        <h6 v-if="cons">Cons</h6>
+        <ul v-html="cons" v-if="cons">
+
+        </ul>
+        <button class="affiliateButton" :data-affiliateid="Id" :data-url="productUrl">{{buttonText}}</button>
+      </div>
+    </div>
+    <hr class="hr-flytype_sm">
+    <p class="affiliateFlytype">{{ flytype }}</p>
+  </content>
+</div>
+

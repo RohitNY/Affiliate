@@ -1,0 +1,242 @@
+.affiliateProductAd {
+  width: 100%;
+}
+
+.affiliateProductAd .adCorner {
+  position: absolute;
+  right: -2px; top: -2px;
+  color: #fff;
+  font-size: 1.4rem;
+  border-top-right-radius: 2rem;
+  padding: 8px 20px;
+  background: #000;
+}
+
+.affiliateProductAd ul {
+  margin: 0; 
+}
+
+.affiliateProductAd hr {
+  margin: 17px 0;
+}
+
+.affiliateProductAd h3 {
+  font-weight: bold;
+  font-size: 2.4rem;
+
+}
+
+.affiliateProductImageContainer {
+  width: 587px;
+}
+
+.affilateProductAd_md .affiliateProductImageContainer {
+  width: 450px;
+}
+
+.affilateProductAd_md .affiliateProductText {
+  padding: 0 15px;
+}
+
+
+
+
+.affiliateProductAd h4 {
+  
+  font-size: 1.5rem;
+  color: #797979;
+}
+
+.affiliateContent {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: 2rem;
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+.merchantHeader {
+  display: flex;
+}
+
+.merchantName {
+
+}
+
+.affilateProductAd_lg {
+  width: calc(100% - 1.5rem);
+  max-width: 106rem;
+}
+
+.affilateProductAd_md{
+  max-width: 77rem;
+  width: calc(100% - 1.5rem)
+} 
+
+.affiliateMerchantLogo {
+  border: 3px solid #F5F5F5;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.affiliateAdContainer {
+  display: flex;
+  margin-top: 10px;
+}
+
+.affiliateAdContainer h5 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.affiliateAdContainer h6 {
+  font-size: 1.4rem;
+  margin-top: 6px;
+  font-weight: normal;
+}
+
+.affiliateProductText h6 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+// .affiliateProductText ul li::before {
+//   background-image: 
+//         url("data:image/svg+xml;utf8,<svg width='15' height='15' viewBox='0 0 15 15' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='7.5' cy='7.5' r='7.5' fill='#FF9900'/><path d='M8 4L11.4641 10H4.5359L8 4Z' fill='white'/></svg>");
+//         width: 15px; height: 15px;
+      
+// }
+
+// .affiliateProductText ul li::marker {
+//   background-image: 
+//         url("data:image/svg+xml;utf8,<svg width='15' height='15' viewBox='0 0 15 15' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='7.5' cy='7.5' r='7.5' fill='#FF9900'/><path d='M8 4L11.4641 10H4.5359L8 4Z' fill='white'/></svg>");
+//         width: 15px; height: 15px;
+      
+        
+// }
+
+.affiliateProductText ul {
+  margin: 0; padding: 0;
+  margin-left: 15px;
+}
+
+.affiliateProductText ul li {
+  background-image :url("http://localhost:4700/devices/id-657/images/li-arrow.png");
+  background-repeat: no-repeat;
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+  background-size: 15px 15px;
+  font-size: 14px;
+  background-position: 0px 2px;
+
+}
+
+.affiliatePricing {
+  display: flex;
+  margin-top: 9px;
+}
+
+.affiliatePricing .affiliatePCHPrice {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.affiliatePricing .affiliateOriginalPrice {
+  font-size: 1.6rem;
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 5px 0 0 9px;
+}
+
+.affiliateDiscount {
+  background: #03C723;
+  border-radius: 2px;
+  padding: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.affilateProductAd_md .affiliateProductImage, .affilateProductAd_lg .affiliateProductImage {
+  margin: 0px 18px 9px 0;
+ 
+}
+
+.affilateProductAd_sm .affiliateProductImage {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.affiliateButton {
+  background: #FF9900;
+  border-radius: 6px;
+  padding: 20px 16px;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #fff;
+  display: block;
+  margin-top: 17px;
+  border: 0.3px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+.affiliateProductDescription {
+  font-size: 1.4rem;
+  margin-top: 21px;
+}
+
+.affiliateProductDescription h6 {
+  font-weight: bold;
+  font-size: 2.0rem;
+  margin: 5px 0;
+}
+.affiliateProductDescription p{
+  margin-top: 10px;
+}
+
+.affiliateFlytype {
+  font-size: 1.0rem;
+  color: #4E4E4E;
+  margin-top: 40px;
+}
+
+/* sm */
+
+.affilateProductAd_sm .affiliateAdContainer {
+  flex-direction: column;
+}
+
+.affilateProductAd_sm .affiliateButton {
+  width: 322px;
+  height: 34px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  justify-content: center; 
+  margin-bottom: 15px;
+}
+
+.affilateProductAd_sm .affiliateFlytype {
+  margin-top: 0px;
+}
+
+.affilateProductAd_sm .affiliateProductDescription ul {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.affiliateProductAd hr.hr-flytype_sm {
+  margin: 5px 0;
+}

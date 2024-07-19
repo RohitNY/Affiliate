@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <contentVariables>
+    <content tag="Affiliate Product">
+      <attribute tag="Merchant Name" name="merchantName" type="string" value="Amazon" />
+      <attribute tag="Merchant Logo" name="merchantLogo" type="string" value="https://wisdom-stone.com/wp-content/uploads/amazon-logo.png" />
+      <attribute tag="Product Image" name="productImage" type="string" value="https://lallahoriye.com/wp-content/uploads/2019/04/Product_Lg_Type.jpg" />
+      <attribute tag="Merchant Url" name="merchantUrl" type="string" value="https://www.amazon.com/" />
+      <attribute tag="ProductUrl" name="productUrl" type="string" value="https://www.amazon.com/Kitty-City-Multifunction-Central-Diameter/dp/B07GLY131J" />
+      <attribute tag="PCH Price" name="pchPrice" type="string" required="false" value="7.95" />
+      <attribute tag="Original Price" name="originalPrice" type="string" required="false" value="12.95" />
+      <attribute tag="Flytype" name="flytype" type="string" value="PCH may collect compensation from this link. PCH does not endorse any specific product or service. NO PURCHASE OR FEE IS NECESSARY TO ENTER OR WIN ANY PCH SWEEPSTAKES." />
+      <attribute tag="Body Markup" name="bodyMarkup" type="string" value="Zip-together combination play Tunnel and cozy cat nap spot in one" />
+      <attribute tag="Product Title" name="productTitle" type="string" value="Kitty City Large Cat Tunnel Bed, Cat Bed, Pop Up bed, Cat Toys" />
+      <attribute tag="Button Text" name="buttonText" type="string" value="SHOP NOW" />
+      <attribute tag="Savings Message" name="savingsMessage" type="string" required="false" value="SAVE $5.00" />
+    </content>
+    <content tag="Analytics">
+      <attribute tag="Affiliate" name="affiliate" type="string" value="Amazon" />
+      <attribute tag="Product" name="product" type="string" value="Kitty City Large Cat Tunnel Bed, Cat Bed, Pop Up bed, Cat Toys" />
+      <attribute tag="Affiliate Device Type" name="affiliate_device_type" type="string" value="product" />
+    </content>
+  </contentVariables>
+</metadata>
+

@@ -1,0 +1,92 @@
+<!-- output -->
+<div v-ui:responsive class="affiliateProductAd" :data-affiliateid="Id" :data-url="productUrl">
+  <content v-show="$mm.lg" data-ui="standard-lg" class="affiliateContent affilateProductAd_lg">
+  <div class="adCorner">Ad</div>
+  <div class="merchantHeader">
+    <img class="affiliateMerchantLogo" :src ="merchantLogo" width="80" height ="80" alt="merchant logo" >
+    <div class="merchantName">
+    <h3>{{ merchantName }}</h3>
+    <h4>Sponsored Product</h4>
+  </div>
+  </div>
+  <div class="affiliateAdContainer">
+    <img class="affiliateProductImage" width="321" height="321"   :src="productImage" alt="product image" />
+    <div class="affiliateProductText">
+      <h5>{{ productTitle }}</h5>
+      <h6>{{merchantUrl}}</h6>
+      <div v-if="pchPrice" class="affiliatePricing">
+        <div class="affiliatePCHPrice">${{pchPrice}}</div>
+        <div v-if="originalPrice" class="affiliateOriginalPrice">${{originalPrice}}</div>
+
+      </div>
+      <div v-if="savingsMessage" class="affiliateDiscount">{{savingsMessage}}</div>
+      <button class="affiliateButton" >{{buttonText}}</button>
+      <hr >
+      <div v-html="bodyMarkup" class="affiliateProductDescription" >
+       
+      </div>
+    </div>
+   
+  </div>
+  <p class="affiliateFlytype">PCH may collect compensation from this link. PCH does not endorse any product or service. NO PURCHASE OR FEE IS NECESSARY TO ENTER OR WIN ANY PCH SWEEPSTAKES. Keep in mind: Price and stock could change on or after the original launch date.</p>
+  </content>
+  <content v-show="$mm.md" data-ui="standard-md" class="affiliateContent affilateProductAd_md">
+    <div class="adCorner">Ad</div>
+    <div class="merchantHeader">
+      <img class="affiliateMerchantLogo" :src ="merchantLogo" width="80" height ="80" alt="merchant logo" >
+      <div class="merchantName">
+    
+      <h3>{{ merchantName }}</h3>
+      <h4>Sponsored Product</h4>
+    </div>
+    </div>
+    <div class="affiliateAdContainer">
+      <img width="321" height="321" class="affiliateProductImage"  :src="productImage" alt="product image" />
+      <div class="affiliateProductText">
+        <h5>{{ productTitle }}</h5>
+        <h6>{{merchantUrl}}</h6>
+        <div v-if="pchPrice" class="affiliatePricing">
+          <div class="affiliatePCHPrice">${{pchPrice}}</div>
+          <div v-if="originalPrice" class="affiliateOriginalPrice">${{originalPrice}}</div>
+  
+        </div>
+        <div v-show="savingsMessage" class="affiliateDiscount">{{savingsMessage}}</div>
+        <button class="affiliateButton" >{{buttonText}}</button>
+        <hr >
+        <div v-html="bodyMarkup" class="affiliateProductDescription">
+         
+        </div>
+      </div>
+     
+    </div>
+    <p class="affiliateFlytype">PCH may collect compensation from this link. PCH does not endorse any product or service. NO PURCHASE OR FEE IS NECESSARY TO ENTER OR WIN ANY PCH SWEEPSTAKES. Keep in mind: Price and stock could change on or after the original launch date.</p>
+  </content>
+  <content v-show="$mm.sm" data-ui="standard-sm" class="affiliateContent affilateProductAd_sm">
+    <div class="adCorner">Ad</div>
+    <div class="merchantHeader">
+      <img class="affiliateMerchantLogo"  :src ="merchantLogo" width="80" height ="80" alt="merchant logo" >
+      <div class="merchantName">
+        <h3>{{ merchantName }}</h3>
+        <h4>Sponsored Product</h4>
+      </div>
+    </div>
+    <div class="affiliateAdContainer">
+      <img class="affiliateProductImage" width="321" height="321" :src="productImage" alt="product image" />
+      <div class="affiliateProductText">
+        <h5>{{ productTitle }}</h5>
+        <h6>{{merchantUrl}}</h6>
+        <div v-if="pchPrice" class="affiliatePricing">
+          <div class="affiliatePCHPrice">${{pchPrice}}</div>
+          <div v-if="originalPrice" class="affiliateOriginalPrice">${{originalPrice}}</div>
+        </div>
+        <div v-if="savingsMessage" class="affiliateDiscount">{{savingsMessage}}</div>
+        <button class="affiliateButton">{{buttonText}}</button>
+        <hr >
+        <div v-html="bodyMarkup" class="affiliateProductDescription"> </div>
+      </div>
+    </div>
+    <hr class="hr-flytype_sm">
+    <p class="affiliateFlytype">PCH may collect compensation from this link. PCH does not endorse any product or service. NO PURCHASE OR FEE IS NECESSARY TO ENTER OR WIN ANY PCH SWEEPSTAKES. Keep in mind: Price and stock could change on or after the original launch date.</p>
+  </content>
+</div>
+

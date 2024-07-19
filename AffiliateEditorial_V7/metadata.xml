@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <contentVariables>
+    <content tag="Affiliate Product">
+      <attribute tag="Merchant Name" name="merchantName" type="string" value="Amazon" />
+      <attribute tag="Merchant Logo" name="merchantLogo" type="string" value="https://wisdom-stone.com/wp-content/uploads/amazon-logo.png" />
+      <attribute tag="Product Image" name="productImage" type="string" value="https://lallahoriye.com/wp-content/uploads/2019/04/Product_Lg_Type.jpg" />
+      <attribute tag="Merchant Url" name="merchantUrl" type="string" value="https://www.amazon.com/" />
+      <attribute tag="ProductUrl" name="productUrl" type="string" value="https://www.amazon.com/Kitty-City-Multifunction-Central-Diameter/dp/B07GLY131J" />
+      <attribute tag="Flytype" name="flytype" type="string" value="PCH may collect compensation from this link. PCH does not endorse any product or service. NO PURCHASE OR FEE IS NECESSARY TO ENTER OR WIN ANY PCH SWEEPSTAKES. Keep in mind: Price and stock could change on or after the original launch date." />
+      <attribute tag="Body Markup" name="bodyMarkup" type="string"  value="Short Description- At $6 a month, basic Hulu is one of the best deals in streaming, with gobs of current and past TV shows and movies. The hefty upgrade to Hulu Plus Live TV buys a healthy mix of live sports, news and local channels. &lt;h6&gt;Live TV Makes It Better&lt;/h6&gt;&lt;p&gt;Make the switch from cable. Get 75+ top channels with your favorite live sports, news, and events - plus the entire Hulu streaming library.&lt;/p&gt;&lt;p&gt; No hidden fees, equipment rentals, or installation appointments.&lt;/p&gt;&lt;p&gt; Switch plans or cancel anytime **&lt;/p&gt;"/>
+      <attribute tag="Pros" name="pros" type="string"  value="&lt;li&gt;bullet 1&lt;/li&gt;&lt;li&gt;bullet 2&lt;/li&gt;&lt;li&gt;bullet 3&lt;/li&gt;&lt;li&gt;bullet 4&lt;/li&gt;"/>
+      <attribute tag="Cons" name="cons" type="string"  value="&lt;li&gt;bullet 1&lt;/li&gt;&lt;li&gt;bullet 2&lt;/li&gt;&lt;li&gt;bullet 3&lt;/li&gt;&lt;li&gt;bullet 4&lt;/li&gt;"/>
+      <attribute tag="Product Title" name="productTitle" type="string" value="Watch thousands of TV shows and movies." />
+      <attribute tag="Button Text" name="buttonText" type="string" value="Read More" />
+	  <attribute tag="Small Button Text" name="smallButtonText" type="string" value="Read More" />
+    </content>
+    <content tag="Analytics">
+      <attribute tag="Affiliate" name="affiliate" type="string" value="Amazon" />
+      <attribute tag="Product" name="product" type="string" value="Kitty City Large Cat Tunnel Bed, Cat Bed, Pop Up bed, Cat Toys" />
+    </content>
+  </contentVariables>
+</metadata>
+
